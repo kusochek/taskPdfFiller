@@ -76,8 +76,6 @@ document.getElementById('allScreen').appendChild(maineLine);
     inLine.style.backgroundColor = blockColor;
     inLine.style.width = (blockWidth + '%');
     inLine.style.height = '100%';
-    inLine.style.display = 'inline';
-    inLine.style.cssFloat = 'left'
     
     maineLine.appendChild(inLine);
         function myFunction() {
