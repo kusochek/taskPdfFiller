@@ -62,7 +62,7 @@ maineLine.classList.add('maineBlock');
 maineLine.style.backgroundColor = (lines);
 maineLine.style.height = '100%';
 maineLine.style.width = '100%';
-maineLine.style.position = 'relative';
+maineLine.style.display = 'flex';
 document.getElementById('allScreen').appendChild(maineLine);
 
     for(var j = 0; j < params.lines[i].elements.length; j++) {
@@ -72,7 +72,6 @@ document.getElementById('allScreen').appendChild(maineLine);
     const inLine = document.createElement('div');
     inLine.classList.add('inLine');
     
-    inLine.style.position = 'absolute';
     inLine.style.backgroundColor = blockColor;
     inLine.style.width = (blockWidth + '%');
     inLine.style.height = '100%';
